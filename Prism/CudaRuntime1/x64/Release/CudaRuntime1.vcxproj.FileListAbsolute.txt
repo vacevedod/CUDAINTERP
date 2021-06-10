@@ -1,0 +1,6 @@
+C:\Users\ixrplatform\Documents\Iacopo\VS2019\CudaRuntime1\x64\Release\CudaRuntime1.exe
+C:\Users\ixrplatform\Documents\Valeria\VS2019\CudaRuntime1\x64\Release\CudaRuntime1.exe
+C:\Users\ixrplatform\Documents\Valeria\Laplacian\CudaRuntime1\x64\Release\CudaRuntime1.exe
+C:\Users\ixrplatform\Documents\Valeria\CUDA\Laplacian\CudaRuntime1\x64\Release\CudaRuntime1.exe
+C:\Users\ixrplatform\Documents\Valeria\CUDA\Trilinear\CudaRuntime1\x64\Release\CudaRuntime1.exe
+C:\Users\ixrplatform\Documents\Valeria\CUDA\Prism\CudaRuntime1\x64\Release\CudaRuntime1.exe

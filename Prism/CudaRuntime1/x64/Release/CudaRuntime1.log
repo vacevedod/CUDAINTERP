@@ -1,0 +1,62 @@
+﻿  Compiling CUDA source file image.cu...
+  
+  C:\Users\ixrplatform\Documents\Valeria\CUDA\Prism\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o x64\Release\image.cu.obj "C:\Users\ixrplatform\Documents\Valeria\CUDA\Prism\CudaRuntime1\image.cu" 
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(12): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(12): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(12): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(13): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(13): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(13): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(64): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(64): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(64): warning : invalid narrowing conversion from "double" to "float"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+  
+C:\Users\Devel\opencv\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(12): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(12): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(12): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(13): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(13): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(13): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(64): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(64): warning : invalid narrowing conversion from "double" to "float"
+  
+C:/Users/ixrplatform/Documents/Valeria/CUDA/Prism/CudaRuntime1/image.cu(64): warning : invalid narrowing conversion from "double" to "float"
+  
+  image.cu
+     Creating library C:\Users\ixrplatform\Documents\Valeria\CUDA\Prism\CudaRuntime1\x64\Release\CudaRuntime1.lib and object C:\Users\ixrplatform\Documents\Valeria\CUDA\Prism\CudaRuntime1\x64\Release\CudaRuntime1.exp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 221 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CudaRuntime1.vcxproj -> C:\Users\ixrplatform\Documents\Valeria\CUDA\Prism\CudaRuntime1\x64\Release\CudaRuntime1.exe
