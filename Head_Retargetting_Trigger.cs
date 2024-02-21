@@ -14,7 +14,8 @@ public class Head_Retargetting_Trigger : MonoBehaviour
     [SerializeField] private SG.SG_GestureLayer gestureLayer;
     [SerializeField] private SG.SG_BasicGesture headRetargetGesture;
 
-    [SerializeField] private AudioSource audioSource;
+     private AudioSource audioSource;
+    [SerializeField] private AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +38,9 @@ public class Head_Retargetting_Trigger : MonoBehaviour
                 McRtc.Client.SendCheckboxRequest(headRetargettingId, currentState);
                 currentState = !currentState;
                 displayRetargetting = currentState;
-                if (audioSource.clip != null)
+                if (audioSource.clip != null&&audioSource!=null)
                 {
+                    audioSource.clip = clip;
                     audioSource.Play();
                 }
             }
